@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github</title>
+
+<style>
+.container{
+    display: flex;
+    justify-content:space-between;
+}
+.aside{
+	width:600px;
+	justify-content:center;
+}
+.profile{
+	display:flex;
+    justify-content:center;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.username .name{
+	font-size: 60px;
+}
+.username{
+	color:silver;
+}
+.skills{
+	width:100px;
+}
+.follow{
+	display:flex;
+    justify-content:center;
+    padding:10px;
+}
+.follow button{
+	padding 50px;
+}
+.content{
+	padding: 100px;
+}
+.option{
+	padding:20px;
+	width:500px;
+    display:flex;
+    gap:1px;
+}
+.option span{
+	border:1px solid silver;
+    padding:10px;
+    margin:10px;
+    border-radius:15px;
+    font-size:18px;
+}
+</style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="aside">
+            <div class="profile">
+                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="">
+            </div>
+            <div class="name">
+            	zaneera-gul
+            </div>
+            <div class="username">
+            	Zaneera Gul
+            </div>
+            <div class="follow">
+            	<button >Follow</button>
+            </div>
+            <div class="skills">
+            	java | c++ | react |
+                database | MS Office | 
+            </div>
+        </div>
+        <div class = "content">
+        	<div class="option">
+           		<span>Overview</span>
+                <span>repo</span>
+                <span>Projects</span>
+                <span>Starts</span>
+                <span>Packages</span>
+            </div>
+            
+            <div class="message">
+                This is your contribution graph. Your first square is for joining GitHub and you’ll earn more as you make additional contributions. More contributions means a higher contrast square color for that day. Over time, your chart might start looking .
+                We have a quick guide that will show you how to create your first repository and earn more green squares!
+            </div>
+        </div>
+    </div>
+</body>
+</html>
