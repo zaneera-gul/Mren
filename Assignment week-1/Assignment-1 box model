@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+        .content{
+            padding: 20px;
+            margin: 20px;
+            border: 20px solid goldenrod;
+        }
+    </style>
+</head>
+<body>
+    <div class="content "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae temporibus blanditiis nobis ad? Velit sit molestiae libero, soluta ratione corporis temporibus sint id possimus, voluptatem, neque odit delectus veritatis? Impedit quaerat harum mollitia recusandae iusto neque assumenda quis beatae ad totam? Inventore quasi ea porro!
+    </div>
+</body>
+</html>
